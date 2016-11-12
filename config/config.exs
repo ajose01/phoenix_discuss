@@ -12,7 +12,7 @@ config :discuss,
 # Configures the endpoint
 config :discuss, Discuss.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "",
+  secret_key_base: "P+5wtHkbveuhaRijOxoiLbUrEkzaLTXU17mGiGwGYhurvxzPaecJRPLwyUgfyg7a",
   render_errors: [view: Discuss.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Discuss.PubSub,
            adapter: Phoenix.PubSub.PG2]
